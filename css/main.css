@@ -109,7 +109,7 @@ textarea {
             font-family: 'Open Sans' sans-serifs;
             font-size: 1em;
             color: #e2e3ed;
-            text-align: left;
+            text-align: center;
    }
 
    ul,
@@ -120,8 +120,10 @@ textarea {
    }
 
    a {
+            padding: 30px;
             color: #e2e3ed;
             text-decoration: none;
+
    }
 
    h2 {
@@ -182,36 +184,36 @@ header .content-wrapper{
     margin: 0;
 }
 
-.header-divider {
-    background: #3a3a3a;
-    width: 100%;
-    height: 1px;
-    margin: 10px 0 20px 0;
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-header figure {
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
+.header-divider {
+  background: #3a3a3a;
+  height: 1px;
+  width: 100%;
+  margin: 10px 0 20px 0;
 }
 
 header nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-flow: row wrap;
     width: 60%;
     font-size: 1.125em;
     font-weight: 700;
     text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 header nav ul{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
 header nav ul li {
@@ -228,7 +230,7 @@ footer p {
 }
 
 footer .contact {
-    margin-bottom: 50px
+    margin-bottom: 50px;
 }
 
 footer .social-icons{
@@ -657,6 +659,7 @@ input[type=button] {
 
      footer .contact {
           margin-bottom: 0;
+          padding-right: 40px;
      }
 
      footer h4 {
